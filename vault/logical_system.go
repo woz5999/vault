@@ -1048,6 +1048,7 @@ func NewSystemBackend(core *Core, logger log.Logger) *SystemBackend {
 						Type:        framework.TypeInt,
 						Default:     32,
 						Description: "The number of bytes to generate (POST body parameter). Defaults to 32 (256 bits).",
+						Attrs:       map[string]string{"group": "foo"},
 					},
 
 					"format": &framework.FieldSchema{
