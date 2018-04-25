@@ -16,9 +16,7 @@ details can be found in the
 [replication internals](/docs/internals/replication.html) document.
 
 Vault replication also includes a complete API. For more information, please see
-the [Vault Replication API documentation](/api/system/replication.html). Note that 
-replication is only supported on Vault Enterprise systems that use Consul as a storage
-backend. 
+the [Vault Replication API documentation](/api/system/replication.html)
 
 
 ## Activating Performance Replication
